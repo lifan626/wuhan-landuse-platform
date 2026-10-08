@@ -1,0 +1,26 @@
+# ============ Python ============
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ============ Node ============
+node_modules/
+dist/
+.vite/
+
+# ============ 数据(大文件不进 git,只存清单) ============
+data/*.tif
+data/*.csv
+*.tif
+*.tif.aux.xml
+
+# ============ IDE ============
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ============ 系统 ============
+Thumbs.db
+.DS_Store
